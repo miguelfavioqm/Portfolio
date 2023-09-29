@@ -1,6 +1,6 @@
 import React from "react";
 import { CgMenuGridO } from "react-icons/cg";
-import { AiFillHtml5 } from "react-icons/ai";
+import { AiFillHtml5, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { IoLogoCss3 } from "react-icons/io";
 import { SiJavascript } from "react-icons/si";
 import { DiSass } from "react-icons/di";
@@ -25,8 +25,18 @@ const Header = () => {
         <div className=" flex flex-col md:w-1/2 h-3/4 md:right-0 md:absolute justify-center items-center">
           <div className="w-full md:h-full flex items-center justify-center text-center flex-col m-auto p-4">
             <h1 className="text-2xl font-semibold underline">
-              MIGUEL FAVIO QUISPE MAMANI
+              MIGUEL FAVIO QUISPE MAMANI <br />
             </h1>
+            <h2 className="text-xl mt-2">
+              {" (Mis redes) => { "}
+              <a href="#">
+                <AiFillLinkedin className="inline-block text-2xl" />
+              </a>{" "}
+              <a href="#">
+                <AiFillGithub className="inline-block text-2xl" />
+              </a>
+              {"}"}
+            </h2>
             <p className="p-4 text-xl">DESARROLLADOR</p>
             <p>
               CADA INSTANTE ES UNA OPORTUNIDAD PARA LLEVAR TUS SUEÑOS HASTA EL
