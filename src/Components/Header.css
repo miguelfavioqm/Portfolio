@@ -1,0 +1,14 @@
+.menu {
+  background-color: rebeccapurple;
+  animation: animationMenu ease-in-out 1s forwards;
+  position: absolute;
+  top: 0;
+}
+@keyframes animationMenu {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 0%;
+  }
+}

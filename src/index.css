@@ -3,4 +3,5 @@
 @tailwind utilities;
 * {
   font-family: "Ubuntu Condensed", sans-serif;
+  scroll-behavior: smooth;
 }
