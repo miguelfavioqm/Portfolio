@@ -1,16 +1,16 @@
 import React from "react";
-
+import foto from "../assets/1680572824153.jpeg";
 const AboutMe = () => {
   return (
     <section
       id="AboutMe"
       className="w-full md:h-screen flex gap-4 flex-wrap p-4 justify-center items-center"
     >
-      <p className="md:h-full flex justify-center items-center md:w-1/4">
-        HOLA!
+      <p className="md:h-full flex flex-col justify-center items-center md:w-1/4">
+        <img src={foto} alt="fotoPerfil" className="w-32 rounded-full" />
+        HOLA! <br /> Mi nombre es Miguel Favio Quispe Mamani
         <br />
-        <br />
-        Mi nombre es Miguel Favio Quispe Mamani soy de La Paz-Bolivia
+        Soy de La Paz-Bolivia
         <br />
         Me encanta la tecnología, es algo que siempre me lleva a querer aprender
         nuevas cosas y considero que es uno de mis mayores aptitudes la
