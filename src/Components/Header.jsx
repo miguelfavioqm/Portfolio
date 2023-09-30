@@ -42,7 +42,8 @@ const Header = () => {
           <div className=" flex flex-col md:w-1/2 h-3/4 md:right-0 md:absolute justify-center items-center">
             <div className="w-full md:h-full flex items-center justify-center text-center flex-col m-auto p-4">
               <h1 className="text-2xl font-semibold underline">
-                MIGUEL FAVIO QUISPE MAMANI <br />
+                MIGUEL FAVIO
+                <br />
               </h1>
               <h2 className="text-xl mt-2">
                 {" (Mis redes) => { "}
@@ -129,7 +130,7 @@ const Header = () => {
             </li>
             <li>
               <a
-                href="#"
+                href="#Contact"
                 className="hover:underline"
                 onClick={() => {
                   SetMenu(!menu);
