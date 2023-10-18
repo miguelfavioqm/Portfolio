@@ -13,7 +13,7 @@ import { DiSass } from "react-icons/di";
 import { BiLogoTailwindCss, BiLogoJava, BiLogoReact } from "react-icons/bi";
 import { RiBootstrapFill } from "react-icons/ri";
 import { SiMysql, SiVite } from "react-icons/si";
-import { BsArrowDownCircle } from "react-icons/bs";
+import { BsArrowDownCircle, BsWordpress } from "react-icons/bs";
 import Lottie from "lottie-react";
 import groovyWalkAnimation from "../assets/Animation - 1695940163900.json";
 const Header = () => {
@@ -77,6 +77,7 @@ const Header = () => {
               <BiLogoReact title="REACT" />
               <BiLogoJava title="JAVA" />
               <SiMysql title="MYSQL" />
+              <BsWordpress title="WORDPRESS" />
             </div>
           </div>
           <Lottie
